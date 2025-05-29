@@ -1,0 +1,7 @@
+C:\Users\Елисей\Desktop\LombardSystem\LombardSystem\obj\Release\net8.0-windows\LombardSystem.csproj.AssemblyReference.cache
+C:\Users\Елисей\Desktop\LombardSystem\LombardSystem\obj\Release\net8.0-windows\LombardSystem.Form1.resources
+C:\Users\Елисей\Desktop\LombardSystem\LombardSystem\obj\Release\net8.0-windows\LombardSystem.csproj.GenerateResource.cache
+C:\Users\Елисей\Desktop\LombardSystem\LombardSystem\obj\Release\net8.0-windows\LombardSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Елисей\Desktop\LombardSystem\LombardSystem\obj\Release\net8.0-windows\LombardSystem.AssemblyInfoInputs.cache
+C:\Users\Елисей\Desktop\LombardSystem\LombardSystem\obj\Release\net8.0-windows\LombardSystem.AssemblyInfo.cs
+C:\Users\Елисей\Desktop\LombardSystem\LombardSystem\obj\Release\net8.0-windows\LombardSystem.csproj.CoreCompileInputs.cache
