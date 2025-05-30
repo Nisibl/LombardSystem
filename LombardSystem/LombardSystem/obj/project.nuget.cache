@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zmKtae0c8s4=",
+  "dgSpecHash": "cQ5uT0ulpoE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Елисей\\Desktop\\LombardSystem\\LombardSystem\\LombardSystem.csproj",
+  "projectFilePath": "C:\\Users\\Елисей\\Documents\\GitHub\\LombardSystem\\LombardSystem\\LombardSystem\\LombardSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Елисей\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Елисей\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

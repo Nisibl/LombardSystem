@@ -2424,11 +2424,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Елисей\\Desktop\\LombardSystem\\TestProject0\\TestProject0.csproj",
+      "projectUniqueName": "C:\\Users\\Елисей\\Documents\\GitHub\\LombardSystem\\LombardSystem\\TestProject0\\TestProject0.csproj",
       "projectName": "TestProject0",
-      "projectPath": "C:\\Users\\Елисей\\Desktop\\LombardSystem\\TestProject0\\TestProject0.csproj",
+      "projectPath": "C:\\Users\\Елисей\\Documents\\GitHub\\LombardSystem\\LombardSystem\\TestProject0\\TestProject0.csproj",
       "packagesPath": "C:\\Users\\Елисей\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Елисей\\Desktop\\LombardSystem\\TestProject0\\obj\\",
+      "outputPath": "C:\\Users\\Елисей\\Documents\\GitHub\\LombardSystem\\LombardSystem\\TestProject0\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Елисей\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2446,8 +2446,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\Елисей\\Desktop\\LombardSystem\\LombardSystem\\LombardSystem.csproj": {
-              "projectPath": "C:\\Users\\Елисей\\Desktop\\LombardSystem\\LombardSystem\\LombardSystem.csproj"
+            "C:\\Users\\Елисей\\Documents\\GitHub\\LombardSystem\\LombardSystem\\LombardSystem\\LombardSystem.csproj": {
+              "projectPath": "C:\\Users\\Елисей\\Documents\\GitHub\\LombardSystem\\LombardSystem\\LombardSystem\\LombardSystem.csproj"
             }
           }
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Елисей\\Desktop\\LombardSystem\\LombardSystem\\LombardSystem.csproj": {}
+    "C:\\Users\\Елисей\\Documents\\GitHub\\LombardSystem\\LombardSystem\\LombardSystem\\LombardSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Елисей\\Desktop\\LombardSystem\\LombardSystem\\LombardSystem.csproj": {
+    "C:\\Users\\Елисей\\Documents\\GitHub\\LombardSystem\\LombardSystem\\LombardSystem\\LombardSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Елисей\\Desktop\\LombardSystem\\LombardSystem\\LombardSystem.csproj",
+        "projectUniqueName": "C:\\Users\\Елисей\\Documents\\GitHub\\LombardSystem\\LombardSystem\\LombardSystem\\LombardSystem.csproj",
         "projectName": "LombardSystem",
-        "projectPath": "C:\\Users\\Елисей\\Desktop\\LombardSystem\\LombardSystem\\LombardSystem.csproj",
+        "projectPath": "C:\\Users\\Елисей\\Documents\\GitHub\\LombardSystem\\LombardSystem\\LombardSystem\\LombardSystem.csproj",
         "packagesPath": "C:\\Users\\Елисей\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Елисей\\Desktop\\LombardSystem\\LombardSystem\\obj\\",
+        "outputPath": "C:\\Users\\Елисей\\Documents\\GitHub\\LombardSystem\\LombardSystem\\LombardSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Елисей\\AppData\\Roaming\\NuGet\\NuGet.Config",
