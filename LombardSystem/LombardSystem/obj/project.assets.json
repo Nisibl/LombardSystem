@@ -2926,11 +2926,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Елисей\\Documents\\GitHub\\LombardSystem\\LombardSystem\\LombardSystem\\LombardSystem.csproj",
+      "projectUniqueName": "C:\\LombardSystem\\LombardSystem\\LombardSystem\\LombardSystem.csproj",
       "projectName": "LombardSystem",
-      "projectPath": "C:\\Users\\Елисей\\Documents\\GitHub\\LombardSystem\\LombardSystem\\LombardSystem\\LombardSystem.csproj",
+      "projectPath": "C:\\LombardSystem\\LombardSystem\\LombardSystem\\LombardSystem.csproj",
       "packagesPath": "C:\\Users\\Елисей\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Елисей\\Documents\\GitHub\\LombardSystem\\LombardSystem\\LombardSystem\\obj\\",
+      "outputPath": "C:\\LombardSystem\\LombardSystem\\LombardSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Елисей\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2958,8 +2958,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
-      }
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -2997,10 +2998,6 @@
           {
             "name": "Microsoft.AspNetCore.App.Ref",
             "version": "[8.0.11, 8.0.11]"
-          },
-          {
-            "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-            "version": "[9.0.101, 9.0.101]"
           },
           {
             "name": "Microsoft.NETCore.App.Host.win-x64",

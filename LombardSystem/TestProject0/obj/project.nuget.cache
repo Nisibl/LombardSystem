@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Jko0Z+4N0KA=",
+  "dgSpecHash": "dFMhmPjH3A4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Елисей\\Documents\\GitHub\\LombardSystem\\LombardSystem\\TestProject0\\TestProject0.csproj",
+  "projectFilePath": "C:\\LombardSystem\\LombardSystem\\TestProject0\\TestProject0.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Елисей\\.nuget\\packages\\coverlet.collector\\6.0.4\\coverlet.collector.6.0.4.nupkg.sha512",
     "C:\\Users\\Елисей\\.nuget\\packages\\microsoft.applicationinsights\\2.21.0\\microsoft.applicationinsights.2.21.0.nupkg.sha512",
     "C:\\Users\\Елисей\\.nuget\\packages\\microsoft.codecoverage\\17.9.0\\microsoft.codecoverage.17.9.0.nupkg.sha512",
     "C:\\Users\\Елисей\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.5\\microsoft.entityframeworkcore.9.0.5.nupkg.sha512",
@@ -22,9 +23,10 @@
     "C:\\Users\\Елисей\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.5\\microsoft.extensions.primitives.9.0.5.nupkg.sha512",
     "C:\\Users\\Елисей\\.nuget\\packages\\microsoft.net.test.sdk\\17.9.0\\microsoft.net.test.sdk.17.9.0.nupkg.sha512",
     "C:\\Users\\Елисей\\.nuget\\packages\\microsoft.testing.extensions.telemetry\\1.0.0\\microsoft.testing.extensions.telemetry.1.0.0.nupkg.sha512",
-    "C:\\Users\\Елисей\\.nuget\\packages\\microsoft.testing.extensions.trxreport.abstractions\\1.0.0\\microsoft.testing.extensions.trxreport.abstractions.1.0.0.nupkg.sha512",
+    "C:\\Users\\Елисей\\.nuget\\packages\\microsoft.testing.extensions.trxreport\\1.4.3\\microsoft.testing.extensions.trxreport.1.4.3.nupkg.sha512",
+    "C:\\Users\\Елисей\\.nuget\\packages\\microsoft.testing.extensions.trxreport.abstractions\\1.4.3\\microsoft.testing.extensions.trxreport.abstractions.1.4.3.nupkg.sha512",
     "C:\\Users\\Елисей\\.nuget\\packages\\microsoft.testing.extensions.vstestbridge\\1.0.0\\microsoft.testing.extensions.vstestbridge.1.0.0.nupkg.sha512",
-    "C:\\Users\\Елисей\\.nuget\\packages\\microsoft.testing.platform\\1.0.0\\microsoft.testing.platform.1.0.0.nupkg.sha512",
+    "C:\\Users\\Елисей\\.nuget\\packages\\microsoft.testing.platform\\1.4.3\\microsoft.testing.platform.1.4.3.nupkg.sha512",
     "C:\\Users\\Елисей\\.nuget\\packages\\microsoft.testing.platform.msbuild\\1.0.0\\microsoft.testing.platform.msbuild.1.0.0.nupkg.sha512",
     "C:\\Users\\Елисей\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.9.0\\microsoft.testplatform.objectmodel.17.9.0.nupkg.sha512",
     "C:\\Users\\Елисей\\.nuget\\packages\\microsoft.testplatform.testhost\\17.9.0\\microsoft.testplatform.testhost.17.9.0.nupkg.sha512",
@@ -35,9 +37,8 @@
     "C:\\Users\\Елисей\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\9.0.4\\npgsql.entityframeworkcore.postgresql.9.0.4.nupkg.sha512",
     "C:\\Users\\Елисей\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.5\\system.diagnostics.diagnosticsource.9.0.5.nupkg.sha512",
     "C:\\Users\\Елисей\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
-    "C:\\Users\\Елисей\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.101\\microsoft.net.sdk.compilers.toolset.9.0.101.nupkg.sha512",
-    "C:\\Users\\Елисей\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.11\\microsoft.windowsdesktop.app.ref.8.0.11.nupkg.sha512",
     "C:\\Users\\Елисей\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.11\\microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "C:\\Users\\Елисей\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.11\\microsoft.windowsdesktop.app.ref.8.0.11.nupkg.sha512",
     "C:\\Users\\Елисей\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.11\\microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512"
   ],
   "logs": []

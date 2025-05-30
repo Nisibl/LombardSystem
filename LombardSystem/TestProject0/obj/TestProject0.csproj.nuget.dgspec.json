@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Елисей\\Documents\\GitHub\\LombardSystem\\LombardSystem\\TestProject0\\TestProject0.csproj": {}
+    "C:\\LombardSystem\\LombardSystem\\TestProject0\\TestProject0.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Елисей\\Documents\\GitHub\\LombardSystem\\LombardSystem\\LombardSystem\\LombardSystem.csproj": {
+    "C:\\LombardSystem\\LombardSystem\\LombardSystem\\LombardSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Елисей\\Documents\\GitHub\\LombardSystem\\LombardSystem\\LombardSystem\\LombardSystem.csproj",
+        "projectUniqueName": "C:\\LombardSystem\\LombardSystem\\LombardSystem\\LombardSystem.csproj",
         "projectName": "LombardSystem",
-        "projectPath": "C:\\Users\\Елисей\\Documents\\GitHub\\LombardSystem\\LombardSystem\\LombardSystem\\LombardSystem.csproj",
+        "projectPath": "C:\\LombardSystem\\LombardSystem\\LombardSystem\\LombardSystem.csproj",
         "packagesPath": "C:\\Users\\Елисей\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Елисей\\Documents\\GitHub\\LombardSystem\\LombardSystem\\LombardSystem\\obj\\",
+        "outputPath": "C:\\LombardSystem\\LombardSystem\\LombardSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Елисей\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,8 +39,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        }
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -80,10 +81,6 @@
               "version": "[8.0.11, 8.0.11]"
             },
             {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.101, 9.0.101]"
-            },
-            {
               "name": "Microsoft.NETCore.App.Host.win-x64",
               "version": "[8.0.11, 8.0.11]"
             },
@@ -108,14 +105,14 @@
         }
       }
     },
-    "C:\\Users\\Елисей\\Documents\\GitHub\\LombardSystem\\LombardSystem\\TestProject0\\TestProject0.csproj": {
+    "C:\\LombardSystem\\LombardSystem\\TestProject0\\TestProject0.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Елисей\\Documents\\GitHub\\LombardSystem\\LombardSystem\\TestProject0\\TestProject0.csproj",
+        "projectUniqueName": "C:\\LombardSystem\\LombardSystem\\TestProject0\\TestProject0.csproj",
         "projectName": "TestProject0",
-        "projectPath": "C:\\Users\\Елисей\\Documents\\GitHub\\LombardSystem\\LombardSystem\\TestProject0\\TestProject0.csproj",
+        "projectPath": "C:\\LombardSystem\\LombardSystem\\TestProject0\\TestProject0.csproj",
         "packagesPath": "C:\\Users\\Елисей\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Елисей\\Documents\\GitHub\\LombardSystem\\LombardSystem\\TestProject0\\obj\\",
+        "outputPath": "C:\\LombardSystem\\LombardSystem\\TestProject0\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Елисей\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -133,8 +130,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\Елисей\\Documents\\GitHub\\LombardSystem\\LombardSystem\\LombardSystem\\LombardSystem.csproj": {
-                "projectPath": "C:\\Users\\Елисей\\Documents\\GitHub\\LombardSystem\\LombardSystem\\LombardSystem\\LombardSystem.csproj"
+              "C:\\LombardSystem\\LombardSystem\\LombardSystem\\LombardSystem.csproj": {
+                "projectPath": "C:\\LombardSystem\\LombardSystem\\LombardSystem\\LombardSystem.csproj"
               }
             }
           }
@@ -147,8 +144,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        }
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -170,9 +168,19 @@
               "target": "Package",
               "version": "[17.9.0, )"
             },
+            "Microsoft.Testing.Extensions.TrxReport": {
+              "target": "Package",
+              "version": "[1.4.3, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[9.0.4, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
             }
           },
           "imports": [
@@ -190,10 +198,6 @@
             {
               "name": "Microsoft.AspNetCore.App.Ref",
               "version": "[8.0.11, 8.0.11]"
-            },
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.101, 9.0.101]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",

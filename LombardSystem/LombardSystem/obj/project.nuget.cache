@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cQ5uT0ulpoE=",
+  "dgSpecHash": "kh6B9DDf5WY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Елисей\\Documents\\GitHub\\LombardSystem\\LombardSystem\\LombardSystem\\LombardSystem.csproj",
+  "projectFilePath": "C:\\LombardSystem\\LombardSystem\\LombardSystem\\LombardSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Елисей\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Елисей\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
@@ -48,9 +48,8 @@
     "C:\\Users\\Елисей\\.nuget\\packages\\system.text.encodings.web\\9.0.5\\system.text.encodings.web.9.0.5.nupkg.sha512",
     "C:\\Users\\Елисей\\.nuget\\packages\\system.text.json\\9.0.5\\system.text.json.9.0.5.nupkg.sha512",
     "C:\\Users\\Елисей\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
-    "C:\\Users\\Елисей\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.101\\microsoft.net.sdk.compilers.toolset.9.0.101.nupkg.sha512",
-    "C:\\Users\\Елисей\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.11\\microsoft.windowsdesktop.app.ref.8.0.11.nupkg.sha512",
     "C:\\Users\\Елисей\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.11\\microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "C:\\Users\\Елисей\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.11\\microsoft.windowsdesktop.app.ref.8.0.11.nupkg.sha512",
     "C:\\Users\\Елисей\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.11\\microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512",
     "C:\\Users\\Елисей\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.11\\microsoft.netcore.app.host.win-x64.8.0.11.nupkg.sha512"
   ],

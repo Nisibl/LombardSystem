@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RunSettings>
+	<DataCollectionRunSettings>
+		<DataCollectors>
+			<DataCollector friendlyName="XPlat code coverage">
+				<Configuration>
+					<Format>cobertura</Format>
+					<!-- Формат для ReportGenerator -->
+					<Include>[LombardSystem.*]*</Include>
+					<!-- Анализируемые проекты -->
+					<Exclude>[*.Tests]*</Exclude>
+					<!-- Исключить тесты -->
+				</Configuration>
+			</DataCollector>
+		</DataCollectors>
+	</DataCollectionRunSettings>
+</RunSettings>

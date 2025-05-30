@@ -13,13 +13,16 @@
           "MSTest.TestFramework": "3.2.0",
           "Microsoft.EntityFrameworkCore.InMemory": "9.0.5",
           "Microsoft.NET.Test.Sdk": "17.9.0",
+          "Microsoft.Testing.Extensions.TrxReport": "1.4.3",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
+          "coverlet.collector": "6.0.4",
           "Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions": "14.0.0.0"
         },
         "runtime": {
           "TestProject0.dll": {}
         }
       },
+      "coverlet.collector/6.0.4": {},
       "Microsoft.ApplicationInsights/2.21.0": {
         "dependencies": {
           "System.Diagnostics.DiagnosticSource": "9.0.5"
@@ -199,7 +202,7 @@
       "Microsoft.Testing.Extensions.Telemetry/1.0.0": {
         "dependencies": {
           "Microsoft.ApplicationInsights": "2.21.0",
-          "Microsoft.Testing.Platform": "1.0.0"
+          "Microsoft.Testing.Platform": "1.4.3"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Testing.Extensions.Telemetry.dll": {
@@ -249,22 +252,75 @@
           }
         }
       },
-      "Microsoft.Testing.Extensions.TrxReport.Abstractions/1.0.0": {
+      "Microsoft.Testing.Extensions.TrxReport/1.4.3": {
         "dependencies": {
-          "Microsoft.Testing.Platform": "1.0.0"
+          "Microsoft.Testing.Extensions.TrxReport.Abstractions": "1.4.3",
+          "Microsoft.Testing.Platform": "1.4.3"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Testing.Extensions.TrxReport.dll": {
+            "assemblyVersion": "1.4.3.0",
+            "fileVersion": "1.400.324.56104"
+          }
+        },
+        "resources": {
+          "lib/net8.0/cs/Microsoft.Testing.Extensions.TrxReport.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net8.0/de/Microsoft.Testing.Extensions.TrxReport.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net8.0/es/Microsoft.Testing.Extensions.TrxReport.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net8.0/fr/Microsoft.Testing.Extensions.TrxReport.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net8.0/it/Microsoft.Testing.Extensions.TrxReport.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net8.0/ja/Microsoft.Testing.Extensions.TrxReport.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net8.0/ko/Microsoft.Testing.Extensions.TrxReport.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net8.0/pl/Microsoft.Testing.Extensions.TrxReport.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net8.0/pt-BR/Microsoft.Testing.Extensions.TrxReport.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net8.0/ru/Microsoft.Testing.Extensions.TrxReport.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net8.0/tr/Microsoft.Testing.Extensions.TrxReport.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net8.0/zh-Hans/Microsoft.Testing.Extensions.TrxReport.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net8.0/zh-Hant/Microsoft.Testing.Extensions.TrxReport.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.Testing.Extensions.TrxReport.Abstractions/1.4.3": {
+        "dependencies": {
+          "Microsoft.Testing.Platform": "1.4.3"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Testing.Extensions.TrxReport.Abstractions.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.24.7403"
+            "assemblyVersion": "1.4.3.0",
+            "fileVersion": "1.400.324.56104"
           }
         }
       },
       "Microsoft.Testing.Extensions.VSTestBridge/1.0.0": {
         "dependencies": {
           "Microsoft.TestPlatform.ObjectModel": "17.9.0",
-          "Microsoft.Testing.Extensions.TrxReport.Abstractions": "1.0.0",
-          "Microsoft.Testing.Platform": "1.0.0"
+          "Microsoft.Testing.Extensions.TrxReport.Abstractions": "1.4.3",
+          "Microsoft.Testing.Platform": "1.4.3"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Testing.Extensions.VSTestBridge.dll": {
@@ -314,11 +370,11 @@
           }
         }
       },
-      "Microsoft.Testing.Platform/1.0.0": {
+      "Microsoft.Testing.Platform/1.4.3": {
         "runtime": {
           "lib/net8.0/Microsoft.Testing.Platform.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.24.7403"
+            "assemblyVersion": "1.4.3.0",
+            "fileVersion": "1.400.324.56104"
           }
         },
         "resources": {
@@ -365,7 +421,7 @@
       },
       "Microsoft.Testing.Platform.MSBuild/1.0.0": {
         "dependencies": {
-          "Microsoft.Testing.Platform": "1.0.0"
+          "Microsoft.Testing.Platform": "1.4.3"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Testing.Platform.MSBuild.dll": {
@@ -785,6 +841,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "coverlet.collector/6.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lkhqpF8Pu2Y7IiN7OntbsTtdbpR1syMsm2F3IgX6ootA4ffRqWL5jF7XipHuZQTdVuWG/gVAAcf8mjk8Tz0xPg==",
+      "path": "coverlet.collector/6.0.4",
+      "hashPath": "coverlet.collector.6.0.4.nupkg.sha512"
+    },
     "Microsoft.ApplicationInsights/2.21.0": {
       "type": "package",
       "serviceable": true,
@@ -911,12 +974,19 @@
       "path": "microsoft.testing.extensions.telemetry/1.0.0",
       "hashPath": "microsoft.testing.extensions.telemetry.1.0.0.nupkg.sha512"
     },
-    "Microsoft.Testing.Extensions.TrxReport.Abstractions/1.0.0": {
+    "Microsoft.Testing.Extensions.TrxReport/1.4.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wQObn9m3xV/JiSatHYqlJNuEnoe7C3yIzHtr5jACHS67Y0/gITTAHdzWw8MInd/HWj0uVT+LwbeP8JQhSh8quA==",
-      "path": "microsoft.testing.extensions.trxreport.abstractions/1.0.0",
-      "hashPath": "microsoft.testing.extensions.trxreport.abstractions.1.0.0.nupkg.sha512"
+      "sha512": "sha512-JSy1dY8ZpNWV00NZBVAQuqJmC18LOszwRsIz4VSROK06FxoPOz5N19D6FHz9ZKJxn3XieoHWhbvuLFWdz9UJiw==",
+      "path": "microsoft.testing.extensions.trxreport/1.4.3",
+      "hashPath": "microsoft.testing.extensions.trxreport.1.4.3.nupkg.sha512"
+    },
+    "Microsoft.Testing.Extensions.TrxReport.Abstractions/1.4.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-16sWznD6ZMok/zgW+vrO6zerCFMD9N+ey9bi1iV/e9xxsQb4V4y/aW6cY/Y7E9jA7pc+aZ6ffZby43yxQOoYZA==",
+      "path": "microsoft.testing.extensions.trxreport.abstractions/1.4.3",
+      "hashPath": "microsoft.testing.extensions.trxreport.abstractions.1.4.3.nupkg.sha512"
     },
     "Microsoft.Testing.Extensions.VSTestBridge/1.0.0": {
       "type": "package",
@@ -925,12 +995,12 @@
       "path": "microsoft.testing.extensions.vstestbridge/1.0.0",
       "hashPath": "microsoft.testing.extensions.vstestbridge.1.0.0.nupkg.sha512"
     },
-    "Microsoft.Testing.Platform/1.0.0": {
+    "Microsoft.Testing.Platform/1.4.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-HTiRQgiIOTOd9yihyIIsJzOI5ZXx0CwjNVzv0bdxd7s5Y8utVXUBUY+P8jD4KusY8CI9+9T87VE5MCx+N5SYsw==",
-      "path": "microsoft.testing.platform/1.0.0",
-      "hashPath": "microsoft.testing.platform.1.0.0.nupkg.sha512"
+      "sha512": "sha512-NedIbwl1T7+ZMeg7gwk0Db8/RFLf0siyVpeTcRMMOle6Xl/ujaYOM4Aduo8rEfVqNj3kcQ7blegpyT3dHi+0PA==",
+      "path": "microsoft.testing.platform/1.4.3",
+      "hashPath": "microsoft.testing.platform.1.4.3.nupkg.sha512"
     },
     "Microsoft.Testing.Platform.MSBuild/1.0.0": {
       "type": "package",
